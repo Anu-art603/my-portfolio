@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anusha | Senior Full Stack Developer</title>
+    <!-- Fonts: Inter for UI, Fira Code for Code snippets -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- AOS Animation CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar: Icons + Smart Scroll -->
+    <header id="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="#hero">PA<span>.</span></a>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <ul class="nav-links">
+                <li>
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-user"></i><span>About</span>
+                    </a>
+                </li>
+                <!-- NEW SKILLS NAV ITEM -->
+                <li>
+                    <a href="#skills" class="nav-link">
+                        <i class="fas fa-layer-group"></i><span>Skills</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">
+                        <i class="fas fa-briefcase"></i><span>Experience</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#education" class="nav-link">
+                        <i class="fas fa-graduation-cap"></i><span>Education</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">
+                        <i class="fas fa-code"></i><span>Projects</span>
+                    </a>
+                </li>
+                
+                <!-- Social Share Dropdown -->
+                <li class="share-widget">
+                    <button id="shareBtn" class="nav-link share-btn">
+                        <i class="fas fa-share-nodes"></i><span>Connect</span>
+                    </button>
+                    <div class="share-dropdown" id="shareDropdown">
+                        <a href="https://linkedin.com/in/anu-art603" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                        <a href="https://github.com/Anu-art603" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <!-- <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> -->
+                        <a href="mailto:anushaparlapalli892@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#contact" class="btn-outline">
+                        <i class="fas fa-paper-plane"></i><span>Touch Me</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Mobile Hamburger -->
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Menu (Overlay) -->
+    <div class="mobile-menu">
+        <a href="#about" class="mobile-link"><i class="fas fa-user"></i> About</a>
+        <a href="#skills" class="mobile-link"><i class="fas fa-layer-group"></i> Skills</a>
+        <a href="#experience" class="mobile-link"><i class="fas fa-briefcase"></i> Experience</a>
+        <a href="#education" class="mobile-link"><i class="fas fa-graduation-cap"></i> Education</a>
+        <a href="#projects" class="mobile-link"><i class="fas fa-code"></i> Projects</a>
+        <div class="mobile-socials">
+            <a href="https://linkedin.com/in/anu-art603"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Anu-art603"><i class="fab fa-github"></i></a>
+            <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
+            <a href="mailto:anushaparlapalli892@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <a href="#contact" class="mobile-link btn-main">Touch Me</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content" data-aos="fade-up">
+                <p class="mono-heading">Hi, my name is</p>
+                <h1 class="big-heading">Parlapalli Anusha.</h1>
+                <h2 class="big-heading slate">I build things for the web.</h2>
+                <p class="hero-desc">
+                    I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products using <strong>Java, Web Development, and AWS</strong>.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-main">Check out my work!</a>
+                    <a href="#contact" class="btn-outline-large">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section (Removed old skill list) -->
+        <section id="about" data-aos="fade-up">
+           
+            <h2 class="numbered-heading">About Me</h2>
+            <div class="about-grid">
+                 <div class="about-text">
+            <p>
+                Hi, I’m <strong class="text-highlight">Anusha Parlapalli</strong>, a passionate developer skilled in Java,  HTML, CSS, and JavaScript, Cloud Computing with AWS and SQL. I enjoy combining clean code with creative design to build user-friendly applications.
+            </p>
+            <p>
+                I work confidently with tools like Git, GitHub, Figma, and Canva, which allow me to manage projects effectively and design engaging digital experiences.
+            </p>
+           
+            <!-- Highlighted Skills Box -->
+            <div class="about-highlight">
+                <h3>✨ What I Bring to the Table</h3>
+                <ul class="highlight-list">
+                    <li>Strong problem-solving mindset and ability to learn fast</li>
+                    <li>Creative design thinking with practical implementation</li>
+                    <li>Growth-oriented approach, always eager to explore new technologies</li>
+                </ul>
+            </div>
+
+            <p>
+               <li> With a strong problem-solving mindset, a love for continuous learning, and a growth-oriented approach, I aim to grow into a versatile Full Stack Developer who can contribute to impactful and innovative projects.</li>
+           
+            </p>
+        </div>
+                <div class="about-img">
+                    <div class="img-wrapper">
+                        <!-- Add your profile image here -->
+                        <img src="Profile .jpeg" alt="Anusha Profile" >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW SKILLS SECTION -->
+        <section id="skills" data-aos="fade-up">
+            <h2 class="numbered-heading">Technical Skills</h2>
+            <p class="section-desc">Click on a category to view specific technologies.</p>
+            
+            <div class="skills-categories">
+                <!-- Frontend Card -->
+                <div class="skill-card" data-category="frontend">
+                    <div class="card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive and interactive user interfaces.</p>
+                    <span class="tap-hint"><i class="fas fa-hand-pointer"></i> View Tech</span>
+                </div>
+
+                <!-- Backend Card -->
+                <div class="skill-card" data-category="backend">
+                    <div class="card-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Creating robust APIs and server-side logic.</p>
+                    <span class="tap-hint"><i class="fas fa-hand-pointer"></i> View Tech</span>
+                </div>
+
+                <!-- Database Card -->
+                <div class="skill-card" data-category="database">
+                    <div class="card-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Management</h3>
+                    <p>Designing efficient data schemas and storage.</p>
+                    <span class="tap-hint"><i class="fas fa-hand-pointer"></i> View Tech</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" data-aos="fade-up">
+            <h2 class="numbered-heading">Where I've Worked</h2>
+            
+            <div class="tabs-container">
+                <!-- Tab Buttons -->
+                <div class="tab-list" role="tablist" aria-label="Job tabs">
+                    <button class="tab-btn active" data-target="#job-excelr-aws">Excel R Cloud Computing(AWS)</button>
+                    <button class="tab-btn" data-target="#job-excelr-py">Jspiders (Java Full Stack)</button>
+                    <button class="tab-btn" data-target="#job-brainovision">Brain O Vision</button>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="tab-panels">
+                    <div id="job-excelr-aws" class="tab-panel active" role="tabpanel">
+                        <h3>Cloud Computing(AWS) Intern <span class="company">@ Excel R</span></h3>
+                        <p class="range">Dec 2024 - Apr 2025</p>
+                        <ul>
+                            <li>Deployed scalable applications using AWS core services including EC2, S3, and Lambda.</li>
+                            <li>Managed cloud infrastructure utilizing AWS CLI and Management Console to ensure 99.9% uptime.</li>
+                            <li>Implemented secure access controls using IAM policies and VPC configurations.</li>
+                        </ul>
+                    </div>
+                    <div id="job-excelr-py" class="tab-panel" role="tabpanel">
+                        <h3>Java Full Stack Trainee <span class="company">@ Jspiders</span></h3>
+                        <p class="range">May 2025 - Dec 2025</p>
+                        <ul>
+                            <li>Developed dynamic web apps using the Springboot framework, reducing page load times by 20%.</li>
+                            <li>Built responsive frontends with HTML, CSS, and JavaScript, ensuring mobile compatibility.</li>
+                            <li>Integrated MySQL databases using Springboot for efficient data management.</li>
+                        </ul>
+                    </div>
+                    <div id="job-brainovision" class="tab-panel" role="tabpanel">
+                        <h3>Web Development Intern <span class="company">@ Brain O Vision</span></h3>
+                        <p class="range">Jun 2023 - Aug 2023</p>
+                        <ul>
+                            <li>Collaborated with a team of 3 to develop scalable web applications.</li>
+                            <li>Designed user-friendly interfaces focusing on UI/UX best practices.</li>
+                            <li>Optimized legacy code to improve browser rendering performance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section id="education" data-aos="fade-up">
+            <h2 class="numbered-heading">Education History</h2>
+            
+            <div class="tabs-container education-tabs">
+                <div class="tab-list" role="tablist">
+                    <button class="tab-btn active" data-target="#edu-btech">B.Tech (2025)</button>
+                    <button class="tab-btn" data-target="#edu-inter">Intermediate (2021)</button>
+                    <button class="tab-btn" data-target="#edu-school">High School (2019)</button>
+                </div>
+
+                <div class="tab-panels">
+                    <div id="edu-btech" class="tab-panel active" role="tabpanel">
+                        <h3>Bachelor of Technology (CSE)</h3>
+                        <span class="company">@ Prakasam Engineering College</span>
+                        <p class="range">Specialization: Cyber Security | CGPA: 8.46/10.0</p>
+                        <div class="edu-desc">
+                            <p>Currently serving as Class Representative. Active participant in coding hackathons and the CRT Program.</p>
+                            <div class="tech-tags">
+                                <span>Cyber Security</span><span>Data Structures</span><span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="edu-inter" class="tab-panel" role="tabpanel">
+                        <h3>Intermediate (MPC)</h3>
+                        <span class="company">@ VBR Junior College</span>
+                        <p class="range">Grade: 89%</p>
+                        <div class="edu-desc">
+                            <p>Focus on Mathematics, Physics, and Chemistry. Awarded "Best in Lab Practicals".</p>
+                        </div>
+                    </div>
+                    <div id="edu-school" class="tab-panel" role="tabpanel">
+                        <h3>Secondary Education</h3>
+                        <span class="company">@  KGBV School</span>
+                        <p class="range">CGPA: 8.8/10.0</p>
+                        <div class="edu-desc">
+                            <p>School Captain. Winner of the District Science Fair competition.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" data-aos="fade-up">
+            <h2 class="numbered-heading">Some Things I've Built</h2>
+
+            <div class="project-item">
+                <div class="project-image">
+                    <a href="#"><img src="https://cdn.pixabay.com/photo/2012/04/12/12/38/email-29853_1280.png" alt="Social Spam Detection" style="width:700px; height:400px"></a>
+                </div>
+                <div class="project-content">
+                    <p class="project-overline">Featured Project</p>
+                    <h3 class="project-title"><a href="#">Social Spam Detection</a></h3>
+                    <div class="project-description">
+                        <p>A web-based application designed to maintain information integrity. It harnesses correlations in social spam to detect and filter malicious content in real-time. Built for scalability and high performance.</p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JSP Servlets</li>
+                        <li>SQL</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="External Link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item inverted">
+                <div class="project-image">
+                    <a href="#"><img src="https://img.freepik.com/premium-vector/doctor-post_643160-289.jpg?w=740" alt="Doctor Profile" style="width:600px; height:400px"></a>
+                </div>
+                <div class="project-content">
+                     <p class="project-overline">Featured Project</p>
+                    <h3 class="project-title"><a href="#">Doctor Appointment Booking Website</a></h3>
+                    <div class="project-description">
+                        <p>A doctor appointment website built with frontend like express.js,javascript, and sql featuring user authentication, appointment scheduling, and email notifications etc..</p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <!-- <li>React</li> -->
+                        <li>express.js</li>
+                        <li>SQL</li>
+                        <li>javascript</li>
+                        <li>HTML & CSS</li>
+                        
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="External Link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certifications" data-aos="fade-up">
+            <h2 class="numbered-heading center-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <header>
+                        <div class="folder-icon"><i class="far fa-folder"></i></div>
+                        <div class="external-link"><a href="#"><i class="fas fa-external-link-alt"></i></a></div>
+                    </header>
+                    <h3 class="cert-title">Cloud Computing(AWS)</h3>
+                    <p class="cert-desc">Comprehensive understanding of designing available, cost-efficient, fault-tolerant, and scalable distributed systems on Cloud Computing(AWS).</p>
+                    <ul class="cert-tech">
+                        <li>Cloud</li>
+                        <li>S3</li>
+                        <li>EC2</li>
+                    </ul>
+                </div>
+                <div class="cert-card">
+                    <header>
+                        <div class="folder-icon"><i class="far fa-folder"></i></div>
+                        <div class="external-link"><a href="#"><i class="fas fa-external-link-alt"></i></a></div>
+                    </header>
+                    <h3 class="cert-title">Web developement</h3>
+                    <p class="cert-desc">It was an Internship In brain O vision Ltd on web developement, In this internship i learn and gain hans on practice on scalable web applications </p>
+                    <ul class="cert-tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="cert-card">
+                    <header>
+                        <div class="folder-icon"><i class="far fa-folder"></i></div>
+                        <div class="external-link"><a href="#"><i class="fas fa-external-link-alt"></i></a></div>
+                    </header>
+                    <h3 class="cert-title">NPTEL(Internet Of Things)</h3>
+                    <p class="cert-desc"> An accadimic course for credits it was provided by the IIT Karaghpur. It was an 12 weeks course in the end with exam they certify with performance , <strong> In this test i score 82% the result is sliver certificate</strong></strong></p>
+                    <ul class="cert-tech">
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" data-aos="fade-up">
+            <h2 class="numbered-heading center-title">What's Next?</h2>
+            <h2 class="big-heading text-center">Get In Touch</h2>
+            <p class="contact-desc text-center">
+                Whether you have a question or just want to say hi, my inbox is always open. I’ll try my best to get back to you!
+            </p>
+
+            <form class="cyber-form">
+                <fieldset class="cyber-fieldset">
+                    <legend class="cyber-legend">INITIALIZE COMMUNICATION</legend>
+                    <div class="input-group">
+                        <fieldset>
+                            <legend>Identity</legend>
+                            <input type="text" placeholder="Name" required>
+                        </fieldset>
+                    </div>
+                    <div class="input-group">
+                        <fieldset>
+                            <legend>Coordinates (Email)</legend>
+                            <input type="email" placeholder="email@example.com" required>
+                        </fieldset>
+                    </div>
+                    <div class="input-group">
+                        <fieldset>
+                            <legend>Payload (Message)</legend>
+                            <textarea rows="5" placeholder="Enter your message here..." required></textarea>
+                        </fieldset>
+                    </div>
+                    <button type="submit" class="btn-main full-width">Transmit Data</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3 class="footer-logo">Parlapalli Anusha</h3>
+                <p class="footer-description">Crafting digital experiences with code and creativity.</p>
+                <div class="footer-social">
+                    <!-- <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a> -->
+                    <a href="https://linkedin.com/in/anu-art603" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Anu-art603" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <!-- <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a> -->
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> anushaparlapalli892@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 9390442958</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Nellore, AP</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Parlapalli Anusha. All rights reserved.</p>
+            <p>Designed and developed with <i class="fas fa-heart"></i> by Anusha</p>
+        </div>
+    </footer>
+
+    <!-- SKILLS MODALS (Hidden by default) -->
+    <div id="modal-frontend" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Frontend Technologies</h3>
+            <div class="skill-grid">
+                <div class="skill-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                <div class="skill-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <!-- <div class="skill-item"><i class="fab fa-react"></i><span>React.js</span></div> -->
+                <div class="skill-item"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+                <div class="skill-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+                <div class="skill-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+                <!-- <div class="skill-item"><i class="fab fa-sass"></i><span>SASS</span></div> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-backend" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Backend Technologies</h3>
+            <div class="skill-grid">
+                <!-- <div class="skill-item"><i class="fab fa-node"></i><span>Node.js</span></div> -->
+                <div class="skill-item"><i class="fab fa-c problem-solving"></i><span>C Programming</span></div>
+                <div class="skill-item"><i class="fab fa-java"></i><span>Java</span></div>
+                <div class="skill-item"><i class="fas fa-network-wired"></i><span>REST APIs</span></div>
+                <div class="skill-item"><i class="fas fa-shield-alt"></i><span>Auth</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-database" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Data Management</h3>
+            <div class="skill-grid">
+                <!-- <div class="skill-item"><i class="fas fa-database"></i><span>MongoDB</span></div>  -->
+                <div class="skill-item"><i class="fas fa-table"></i><span>MySQL</span></div>
+                <div class="skill-item"><i class="fas fa-server"></i><span>SQL</span></div>
+                <!-- <div class="skill-item"><i class="fab fa-aws"></i><span>AWS S3</span></div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
